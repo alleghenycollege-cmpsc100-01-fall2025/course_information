@@ -1,6 +1,6 @@
 # Overview
 
-We will first set up all essential tools for the course:
+This guide was prepared by Allegheny's ACM student chapter and is designed to set up the essential tools for the course. Today, it includes:
 
 1. **Discord** - Communication
 2. **GitHub** - Version Control  
