@@ -29,7 +29,7 @@ This guide was prepared by Allegheny's ACM student chapter and is designed to se
 - Join here: [discord.gg/tWa2BwXqSp](https://discord.gg/tWa2BwXqSp)
 - **Primary course communication channel**
 
-**ACM Discord Server:**
+**ACM Discord Server (optional):**
 
 - Join here: [discord.gg/4gm2jumuEd](https://discord.gg/4gm2jumuEd)
 - Get notified of events
@@ -74,8 +74,7 @@ This guide was prepared by Allegheny's ACM student chapter and is designed to se
 **All Platforms:** [code.visualstudio.com/download](https://code.visualstudio.com/download)
 
 **Beginner Setup Guide:**  
-[VS Code Team Tutorial](https://www.youtube.com/watch?v=B-s71n0dHUk)
-
+For Reference: [VS Code Team Tutorial](https://www.youtube.com/watch?v=B-s71n0dHUk)
 - Official tutorial from VS Code team
 - Beginner-friendly
 - Highly efficient for learning
@@ -84,8 +83,8 @@ This guide was prepared by Allegheny's ACM student chapter and is designed to se
 
 Once VS Code is installed, you can access the terminal:
 
-- **Windows/Linux:** `Ctrl + `` (backtick)
-- **macOS:** `Cmd + `` (backtick)
+- **Windows/Linux:** `Ctrl + ` (backtick)`
+- **macOS:** `control + ` (backtick)`
 - **Menu:** View → Terminal
 
 This integrated terminal will be used for all command-line operations in the following sections.
@@ -96,7 +95,7 @@ SSH keys provide secure authentication for Git operations and server access. **U
 
 ## Generate the SSH Key Pair:
 
-1. **Open VS Code's integrated terminal** (`Ctrl/Cmd + `` backtick)
+1. **Open VS Code's integrated terminal**
 2. **Run the SSH key generation command:**
 
 ```bash
@@ -104,16 +103,12 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ```
 
 - Press Enter to accept the default file location
-- Enter a passphrase when prompted (optional but recommended)
+- Enter a passphrase when prompted (you will need to enter it each time you send your work to GitHub, press Enter twice if you don't want to create passphrase)
 
 ## Add the Public Key to GitHub:
 
 1. **Copy your public key from VS Code's terminal:**
    ```bash
-   # macOS/Linux:
-   cat ~/.ssh/id_rsa.pub
-   
-   # Windows (Git Bash or PowerShell):
    cat ~/.ssh/id_rsa.pub
    ```
 
@@ -121,16 +116,15 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
    - Go to GitHub Settings → SSH and GPG keys
    - Click "New SSH key"
    - Paste your public key
-   - Give it a descriptive title (e.g., "My Development Machine")
+   - Give it a descriptive title (e.g., "HP Machine")
 
 3. **Test the connection from VS Code's terminal:**
    ```bash
    ssh -T git@github.com
    ```
    
-   You should see a message like: "Hi username! You've successfully authenticated..."
+   You should see a message similar to: "You've successfully authenticated..."
 
-<!--
 # 4. Python Installation
 
 ## Installation Requirements
@@ -172,7 +166,8 @@ Different methods for different operating systems!
 
 - Look for the official publisher name
 - Avoid unofficial extensions
-
+  
+<!--
 # 6. AI Tools Setup
 
 ## Overview
