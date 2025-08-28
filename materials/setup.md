@@ -125,32 +125,139 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
    
    You should see a message similar to: "You've successfully authenticated..."
 
+<!--
 # 4. Python Installation
 
-## Installation Requirements
+Mac and Linux Users: check if you have the correct version of Python installed already on your machine. 
 
-Different methods for different operating systems!
+Open VS Code's integrated terminal and run:
+```bash
+python3 --version
+```
 
-**Helpful Resource:**  
-[Real Python Installation Guide](https://realpython.com/installing-python/)
+OR 
+```bash
+python --version
+```
+**We will be using Python 3.12.** If you have Python 2.x, please install the Python 3 version by following instructions below.
 
-**Choose your OS:**
+## Installation by Operating System
 
-- Windows, macOS, or Linux guides available
-- **Use the Official Installer method**
+Choose the instructions for your operating system. Since you already have VS Code installed, we will focus on getting Python set up and working with your editor.
 
-## Installation Tips
+### macOS Installation
 
-**Unsure about your OS?**
+**Option 1: Official Python Installer (Recommended)**
+1. Go to [python.org/downloads](https://python.org/downloads)
+2. Download the latest Python 3.x version for macOS
+3. Run the downloaded `.pkg` file
+4. Follow the installation wizard (default options are fine)
+5. **Important**: Check "Add Python to PATH" if prompted
 
-- Don't hesitate to ask!
-- Department laptops generally use **Linux**
+**Option 2: Using Homebrew (if you have it installed)**
+```bash
+brew install python
+```
 
-**Installation Options:**
+**Verify Installation:**
+Open VS Code's integrated terminal and run:
+```bash
+python3 --version
+```
+You should see something like `Python 3.x.x`
 
-- Default options are usually fine
-- Ask questions if you're unsure!
+### Windows Installation
 
+**Official Python Installer**
+1. Go to [python.org/downloads](https://python.org/downloads)
+2. Click "Download Python 3.x.x" (latest version)
+3. Run the downloaded `.exe` file
+4. **IMPORTANT**: Check "Add Python to PATH" checkbox at the bottom
+5. Click "Install Now"
+6. If prompted, allow the installer to disable path length limit
+
+**Verify Installation:**
+Open VS Code's integrated terminal and run:
+```bash
+python --version
+```
+or
+```bash
+python3 --version
+```
+You should see something like `Python 3.x.x`
+
+### Linux Installation
+
+**Ubuntu/Debian:**
+```bash
+sudo apt update
+sudo apt install python3 python3-pip
+```
+
+**Verify Installation:**
+Open VS Code's integrated terminal and run:
+```bash
+python3 --version
+```
+You should see something like `Python 3.x.x`
+
+
+## Test Your Python Installation
+
+Let's make sure Python is working correctly with a simple "Hello World" program.
+
+### Create Your First Python Program
+
+1. **In VS Code, create a new file:**
+   - Press `Ctrl+N` (Windows/Linux) or `Cmd+N` (macOS) or go to File -> New File
+   - Save it as `hello.py` in a folder of your choice
+
+2. **Copy and paste this code:**
+   ```python
+   print("Hello, World!")
+   print("Python is working correctly!")
+   
+   # Let's also check the Python version
+   import sys
+   print(f"You are running Python {sys.version}")
+   ```
+
+3. **Run your program:**
+   - Open VS Code's integrated terminal
+   - Navigate to where you saved `hello.py`
+   - Run the program:
+     
+     **macOS/Linux:**
+     ```bash
+     python3 hello.py
+     ```
+     
+     **Windows:**
+     ```bash
+     python hello.py
+     ```
+
+4. **Expected output:**
+   ```
+   Hello, World!
+   Python is working correctly!
+   You are running Python 3.x.x
+   ```
+
+### Troubleshooting
+
+**If you get "command not found" or "not recognized":**
+- Make sure Python was added to your system PATH during installation
+- Try using `python3` instead of `python` (especially on macOS/Linux)
+- Restart VS Code and your terminal
+
+**Still having issues?**
+- Ask for help!
+- Check if Python is installed: look for Python in your Applications (macOS) or Programs (Windows)
+-->
+
+<!--
 # 5. Raspberry Pi Pico Extension
 
 ## Installing the Extension
@@ -167,7 +274,7 @@ Different methods for different operating systems!
 - Look for the official publisher name
 - Avoid unofficial extensions
   
-<!--
+
 # 6. AI Tools Setup
 
 ## Overview
