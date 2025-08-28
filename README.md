@@ -1,4 +1,4 @@
-# CMPSC 100-02: Computational Expression Fall 2025
+# CMPSC 100-01: Computational Expression Fall 2025
 
 This repository contains information about the Computational Expression course, section 2, including the course objectives and outcomes, policies, and the schedule.
 
