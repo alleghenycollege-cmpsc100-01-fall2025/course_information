@@ -125,7 +125,6 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
    
    You should see a message similar to: "You've successfully authenticated..."
 
-<!--
 # 4. Python Installation
 
 Mac and Linux Users: check if you have the correct version of Python installed already on your machine. 
@@ -202,7 +201,7 @@ python3 --version
 ```
 You should see something like `Python 3.x.x`
 
-
+<!--
 ## Test Your Python Installation
 
 Let's make sure Python is working correctly with a simple "Hello World" program.
