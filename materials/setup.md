@@ -210,7 +210,7 @@ Let's make sure Python is working correctly with a simple "Hello World" program.
 
 1. **In VS Code, create a new file:**
    - Press `Ctrl+N` (Windows/Linux) or `Cmd+N` (macOS) or go to File -> New File
-   - Save it as `hello.py` in a folder of your choice
+   - Save it as `hello.py` in your cmpsc100 folder (create a folder to store CMPSC 100 files, if you haven't done so already)
 
 2. **Copy and paste this code:**
    ```python
