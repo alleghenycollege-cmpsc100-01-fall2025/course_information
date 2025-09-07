@@ -122,7 +122,7 @@ Course grades will be reported in the course's Canvas page.
 
 #### Breakdown:
 ##### Labs (40 points)
-Weekly hands-on programming assignments where you write Python code for the Pico W. Each lab builds on previous work and develops skills toward your final IoT project. Points are based on correct functionality, code clarity, and a short reflection explaining your approach.
+Weekly hands-on programming assignments where you write Python code for a specific application. After the first lab, you will work on the Pico 2W, with each subsequent lab building on previous work and developing skills toward your final IoT project. Points are based on correct functionality, code clarity, and a short reflection explaining your approach.
 
 ##### In-Class Activities (15 points)
 Engaging exercises done during class, including mini coding challenges, debugging tasks, and short ethical or design discussions. These activities help you practice new concepts, collaborate with classmates, and get immediate feedback.
